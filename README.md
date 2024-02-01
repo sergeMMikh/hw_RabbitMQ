@@ -90,8 +90,10 @@ $ rabbitmqadmin get queue='hello'
 *Приложите скриншот результата работы второго скрипта.*
 
 **Решение**
-- скриншот 
-  * <img src="images/Task_3_3.png" alt="Task_3_3.png" width="300" height="auto">
+- скриншот с обеими нодами
+  <img src="images/Task_3_3.png" alt="Task_3_3.png" width="300" height="auto">
 
+- скриншот с отключенной первой нодой (она же- сервер или админка) но вторая нода получила все сообщения
+  <img src="images/Task_3_4.png" alt="Task_3_4.png" width="250" height="auto">
 
 ---
