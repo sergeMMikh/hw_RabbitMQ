@@ -36,7 +36,7 @@ $ pip install pika
   * <img src="images/Task_2_1.png" alt="Task_2_1.png" width="750" height="auto">
 
 - скриншот результата выполнения скрипта consumer.py
-  * <img src="images/Task_2_2.png" alt="Task_2_2.png" width="750" height="auto">
+  * <img src="images/Task_2_2.png" alt="Task_2_2.png" width="500" height="auto">
 
 
 ---
@@ -64,7 +64,7 @@ $ cat /etc/hosts
   * <img src="images/Task_3_1_1.png" alt="Task_3_1_1.png" width="750" height="auto">
 
 - з веб-интерфейса с включённой политикой
-  * <img src="images/Task_3_1_2.png" alt="Task_3_1_2.png" width="250" height="auto">
+  * <img src="images/Task_3_1_2.png" alt="Task_3_1_2.png" width="500" height="auto">
 
 Также приложите вывод команды с двух нод:
 
@@ -75,9 +75,9 @@ $ rabbitmqctl cluster_status
 **Решение**
 
 - скриншот с rmq01
-  * <img src="images/Task_3_2_1.png" alt="Task_3_2_1.png" width="250" height="auto">
+  * <img src="images/Task_3_2_1.png" alt="Task_3_2_1.png" width="500" height="auto">
 - скриншот с rmq02
-  * <img src="images/Task_3_2_2.png" alt="Task_3_2_2.png" width="250" height="auto">
+  * <img src="images/Task_3_2_2.png" alt="Task_3_2_2.png" width="500" height="auto">
 
 Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
 
@@ -88,5 +88,10 @@ $ rabbitmqadmin get queue='hello'
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
 *Приложите скриншот результата работы второго скрипта.*
+
+**Решение**
+- скриншот 
+  * <img src="images/Task_3_3.png" alt="Task_3_3.png" width="300" height="auto">
+
 
 ---
